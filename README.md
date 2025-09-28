@@ -1,11 +1,11 @@
 # 🧠 Brain Tumor Detection with Deep Learning (CNN)
 
-This project leverages **Convolutional Neural Networks (CNNs)** to automatically identify brain tumors from MRI scans. By applying deep learning methods, the system classifies images into two categories: **Tumor Present** and **No Tumor**.
+This project leverages Convolutional Neural Networks (CNNs) to automatically identify brain tumors from MRI scans. By applying deep learning methods, the system classifies images into two categories: Tumor Present and No Tumor.
 
 
 ## 📁 Dataset
 
-The model was trained and validated using the **BR35H Brain Tumor Detection Dataset** from Kaggle, which provides labeled MRI images of patients with and without tumors.
+The model was trained and validated using the BR35H Brain Tumor Detection Dataset from Kaggle, which provides labeled MRI images of patients with and without tumors.
 
 
 
@@ -29,10 +29,10 @@ The model was trained and validated using the **BR35H Brain Tumor Detection Data
 
 ## 🏗️ Network Design
 
-* Three convolutional layers with **ReLU** activations
-* **MaxPooling** layers for downsampling
+* Three convolutional layers with ReLU activations
+* MaxPooling layers for downsampling
 * Dense fully connected layers for classification
-* Final **Sigmoid/Softmax** layer for binary output
+* Final Sigmoid/Softmax layer for binary output
 
 
 
